@@ -367,6 +367,17 @@ RP2040 chip according to how it is connected up on the board.
 [Waveshare RP2040 LCD 0.96"]: https://www.waveshare.com/wiki/RP2040-LCD-0.96
 [waveshare-rp2040-lcd-0_96]: https://github.com/rp-rs/rp-hal-boards/tree/main/boards/waveshare-rp2040-lcd-0-96
 
+### [waveshare-rp2040-touch-lcd-1-28] - Board Support for the [Waveshare RP2040 Touch LCD 1.28"]
+
+You should include this crate if you are writing code that you want to run on
+an [Waveshare RP2040 Touch LCD 1.28"] - a small round (smartwatch shape) RP2040 breakout board with 264KB SRAM, 4MB onboard Flash memory, USB-C,
+a 65K RGB IPS LCD 240x240, a capacitive touch chip, an IMU sensor and Li-ion battery charger from Waveshare.
+
+This crate includes the [rp2040-hal], but also configures each pin of the
+RP2040 chip according to how it is connected up on the board.
+
+[Waveshare RP2040 Touch LCD 1.28"]: https://www.waveshare.com/wiki/RP2040-Touch-LCD-1.28
+[waveshare-rp2040-lcd-1-28]: https://github.com/rp-rs/rp-hal-boards/tree/main/boards/waveshare-rp2040-touch-lcd-1-28
 <!-- PROGRAMMING -->
 ## Programming
 
